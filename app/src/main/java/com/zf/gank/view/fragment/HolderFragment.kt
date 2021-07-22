@@ -1,9 +1,8 @@
 package com.zf.gank.view.fragment
 
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.zf.gank.R
 import com.zf.gank.databinding.FragmentHolderLayoutBinding
 import com.zf.jetpackmvvm.base.fragment.BaseVBFragment
@@ -18,6 +17,8 @@ class HolderFragment : BaseVBFragment<FragmentHolderLayoutBinding>(false) {
     override fun initializeView() {
         super.initializeView()
 
+
+        mViewBinding.bottomNav.labelVisibilityMode = BottomNavigationView.LABEL_VISIBILITY_LABELED
         mViewBinding.bottomNav.selectedItemId = R.id.main_page_menu_item
         switchFragment(MainFragment.MAIN_FRAGMENT)
         // 初始化底部导航栏

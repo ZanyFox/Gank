@@ -1,4 +1,4 @@
-package com.zf.jetpackmvvm.widget.easy_recycler_view
+package com.zf.jetpackmvvm.widget.easyrecyclerview
 
 import androidx.recyclerview.widget.RecyclerView
 

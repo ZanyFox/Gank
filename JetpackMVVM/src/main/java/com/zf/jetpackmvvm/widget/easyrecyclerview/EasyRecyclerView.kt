@@ -1,4 +1,4 @@
-package com.zf.jetpackmvvm.widget.easy_recycler_view
+package com.zf.jetpackmvvm.widget.easyrecyclerview
 
 import android.content.Context
 import android.util.AttributeSet

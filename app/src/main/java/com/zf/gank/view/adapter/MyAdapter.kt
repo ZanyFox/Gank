@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.zf.gank.R
-import com.zf.jetpackmvvm.widget.easy_recycler_view.EasyRecyclerViewAdapter
+import com.zf.jetpackmvvm.widget.easyrecyclerview.EasyRecyclerViewAdapter
 
 class MyAdapter : EasyRecyclerViewAdapter<String, MyAdapter.ViewHolder>() {
 

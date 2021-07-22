@@ -22,8 +22,6 @@ class MainPageViewModel @Inject constructor(private val repository: RecommendRep
     val homeArticleLiveData = MutableLiveData<ListViewState<Article>>()
 
 
-
-
     fun getHomeArticle(action: ListViewState.Action) {
 
         homeArticleLiveData.value = ListViewState.Loading(action)
@@ -44,6 +42,5 @@ class MainPageViewModel @Inject constructor(private val repository: RecommendRep
             },
             { homeArticleLiveData.value = ListViewState.LoadFail(throwableToString(it), action) })
     }
-
 
 }

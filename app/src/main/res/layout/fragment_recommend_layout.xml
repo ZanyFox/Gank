@@ -6,7 +6,7 @@
     android:background="@color/white"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.zf.jetpackmvvm.widget.easy_recycler_view.EasyRecyclerView
+    <com.zf.jetpackmvvm.widget.easyrecyclerview.EasyRecyclerView
         android:id="@+id/recycler_view"
         android:overScrollMode="never"
         android:background="@color/white"

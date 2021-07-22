@@ -1,6 +1,6 @@
 package com.zf.gank.ext
 
-import androidx.annotation.NonNull
+
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
@@ -15,8 +15,9 @@ import com.zf.gank.state.ViewState
 
 import com.zf.jetpackmvvm.base.appContext
 import com.zf.jetpackmvvm.base.vm.BaseViewModel
-import com.zf.jetpackmvvm.widget.easy_recycler_view.EasyRecyclerView
-import com.zf.jetpackmvvm.widget.easy_recycler_view.EasyRecyclerViewAdapter
+import com.zf.jetpackmvvm.widget.easyrecyclerview.EasyRecyclerView
+import com.zf.jetpackmvvm.widget.easyrecyclerview.EasyRecyclerViewAdapter
+import io.reactivex.rxjava3.annotations.NonNull
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch

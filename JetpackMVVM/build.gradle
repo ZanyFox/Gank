@@ -47,10 +47,8 @@ dependencies {
     api Dependencies.lifecycle_viewmodel_ktx
 
 
-
-
-
     api Dependencies.appcompat
+    api Dependencies.swipe_refresh_layout
     api Dependencies.material
     api Dependencies.constraint_layout
     api Dependencies.recycler_view

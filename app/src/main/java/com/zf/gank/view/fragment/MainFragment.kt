@@ -34,6 +34,7 @@ class MainFragment : BaseVBFragment<FragmentMainLayoutBinding>() {
         mViewBinding.mainPageTableLayout.tabIndicatorAnimationMode =
             TabLayout.INDICATOR_ANIMATION_MODE_ELASTIC
 
+
         val tabLayoutMediator =
             TabLayoutMediator(
                 mViewBinding.mainPageTableLayout,
